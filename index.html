@@ -1,0 +1,87 @@
+<div class="start" style="width: 300px; height: 200px; background: black; margin-left: 650px; color: #bfbfd6;">
+	<div style="width: 500px; margin-left: 200px; background: #black;"></div>
+     <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw_E845Ve7Y7MnYfeKbhAB57P1kKCv8yP9tg&usqp=CAU> 
+<div class="button" style="width: 300px; background: black; height: 70px; color: white">
+		"Нажмите здесь чтобы начать"
+	</div>
+</div>
+<div class="question1" style="width: 500px; height: 610px; background: #0b052d; margin-left: 650px; display: none; color: #bfbfd6;">
+	<div style="width: 500px; height: 6px; background: #0b052d;"></div>
+	<img src="122.jpg" style="width: 488px; margin-left: 6px;">
+	<h1>Вопрос: Кем был написан Кодекс Ассасинов?</h1>
+	<div class="var1" style="width: 500px; background: #7d1b80; height: 70px">
+		Ответ 1: Данте Алиньери
+	</div>
+	<div class="var2" style="width: 500px; background: #5c1b7f; height: 70px">
+		Ответ 2: Альтаиром Ла-Ахадом
+	</div>
+	<div class="var3" style="width: 500px; background: #a3a72b; height: 70px">
+		Ответ 3: Александрией Айей
+	</div>
+</div>
+<div class="question2" style="width: 500px; height: 610px; background: #0b052d; margin-left: 650px; display: none; color: #bfbfd6;">
+	<div style="width: 500px; height: 3px; background: #0b052d;"></div>
+	<img src="https://www.mirf.ru/wp-content/uploads/2017/01/assassins.jpg" style="width: 488px; margin-left: 6px;">
+	<h1>Вопрос: Кто из этих персонажей является ассасином?</h1>
+	<div class="var1" style="width: 500px; background: #7d1b80; height: 70px">
+		Ответ 1: Сменкхара
+	</div>
+	<div class="var2" style="width: 500px; background: #5c1b7f; height: 70px">
+		Ответ 2: Шэй-Патрик-Кормак
+	</div>
+	<div class="var3" style="width: 500px; background: #a3a72b; height: 70px">
+		Ответ 3: Радунхагейду
+	</div>
+</div>
+<div class="question3" style="width: 500px; height: 610px; background: #0b052d; margin-left: 650px; display: none; color: #bfbfd6;">
+	<div style="width: 500px; height: 1px; background: #0b052d;"></div>
+	<img src="https://cdn.igromania.ru/mnt/news/7/0/5/1/1/7/87391/b8222e9532bc9988_320x180.jpg" style="width: 488px; margin-left: 6px;">
+	<h1>Вопрос: Какая территория входит в GTA 5?</h1>
+	<div class="var1" style="width: 500px; background: #7d1b80; height: 70px">
+		Ответ 1: Лос-Сантос
+	</div>
+	<div class="var2" style="width: 500px; background: #5c1b7f; height: 70px">
+		Ответ 2: Лос-Сантос, горы и пляж
+	</div>
+	<div class="var3" style="width: 500px; background: #a3a72b; height: 70px">
+		Ответ 3: Лос-Сантос и Блейн-Каунти
+	</div>
+</div>
+<div class="question4" style="width: 500px; height: 610px; background: #0b052d; margin-left: 650px; display: none; color: #bfbfd6;">
+	<div style="width: 500px; height: 0px; background: #0b052d;"></div>
+	<img src="https://static-prod.weplay.tv/2019-09-12/ecf6f6505687109089cdc3a66aaee24b_large_cover.jpeg" style="width: 488px; margin-left: 6px;">
+	<h1>Вопрос: Какое самое бесполезное оружие в CS:GO?</h1>
+	<div class="var1" style="width: 500px; background: #7d1b80; height: 70px">
+		Ответ 1: M249
+	</div>
+	<div class="var2" style="width: 500px; background: #5c1b7f; height: 70px">
+		Ответ 2: Револьвер R8
+	</div>
+	<div class="var3" style="width: 500px; background: #a3a72b; height: 70px">
+		Ответ 3: Sawed-Off
+	</div>
+</div>
+<div class="molodec" style="width: 500px; height: 400px; background: black; margin-left: 650px; display: none; color: #bfbfd6;">
+	<div style="width: 500px; height: 0px; background: #0b052d;"></div>
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlwLa-JjabJGIho6r8DK3Vs2B-B0v5oAngew&usqp=CAU" style="width: 500px;  "> 
+     <h1 style="margin-left: 200px; color: white">Молодец</h1>
+
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js"></script>
+<script type="text/javascript">
+    find("start button").click("show", "question1", "Сейчас начнём")
+    find("question1 var1").click("alert", "Неправильный ответ");
+        find("question1 var2").click("show", "question2","Правильный ответ");
+            find("question1 var3").click("alert", "Правильный ответ(нет)");
+
+            find("question2 var1").click("alert", "Неправильный ответ");
+            find("question2 var2").click("alert", "Неправильный ответ");
+            find("question2 var3").click("show", "question3","Правильный ответ");
+
+            find("question3 var1").click("alert", "Неправильный ответ");
+            find("question3 var2").click("show","question4", "Правильный ответ");
+            find("question3 var3").click("alert", "Неправильный ответ");
+
+            find("question4 var1").click("show","molodec", "Правильный ответ");
+            find("question4 var2").click("alert", "Неправильный ответ");
+            find("question4 var3").click("alert", "Неправильный ответ");
+</script>
